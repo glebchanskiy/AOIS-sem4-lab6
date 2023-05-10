@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group 'org.glebchanskiy'
+version 'unspecified'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(':hash-map')
+}
+
+jar {
+    manifest {
+        attributes(
+                "Main-Class": "org.glebchanskiy.app.Main"
+        )
+    }
+}

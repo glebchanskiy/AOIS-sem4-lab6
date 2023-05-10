@@ -1,0 +1,17 @@
+**/.DS_Store
+**/.AppleDouble
+**/.LSOverride
+**/__pycache__
+**/postgres-data
+
+.idea
+.vscode
+.gradle
+.gitattributes
+gradle
+
+cmake-build-debug
+cmake-build
+build
+target
+
